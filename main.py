@@ -1,17 +1,5 @@
-print("""Calculator:
-+---------+
-0
-+---------+
-| [+] [-] |
-| [*] [/] |
-+---------+
-""")
-
-print("Frist number: 558.28")
-print("Operator: +")
-print("Second number: 452.64")
-
-print("\nAnswer:")
-print("+---------+")
-print(558.28 + 452.64)
-print("+---------+")
+a = 21
+b = 72
+c_sqrd = a ** 2 + b ** 2
+x = c_sqrd ** 0.5
+print("x =", x)
